@@ -1,15 +1,10 @@
 import os
-# импортируем модуль emoji для отображения эмоджи
 from emoji import emojize
 
-# токен выдается при регистрации приложения
 TOKEN = '7108971240:AAG23VQEO6u9RU1TZUHj5Is2ZR6g8xelaRs'
-# название БД
 NAME_DB = 'products.db'
 
-# родительская директория
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-# путь до базы данных
 DATABASE = os.path.join('sqlite:///'+BASE_DIR, NAME_DB)
 
 COUNT = 0

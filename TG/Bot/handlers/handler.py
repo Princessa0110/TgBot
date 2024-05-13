@@ -1,8 +1,5 @@
-# импортируем библиотеку abc для реализации абстрактных классов
 import abc
-# импортируем разметку клавиатуры и клавиш
 from markup.markup import Keyboards
-# импортируем класс-менеджер для работы с библиотекой
 from data_base.dbalchemy import DBManager
 
 
